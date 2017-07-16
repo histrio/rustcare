@@ -1,0 +1,10 @@
+[package]
+name = "rustcare"
+version = "0.1.0"
+authors = ["Rinat Sabitov <rinat.sabitov@gmail.com>"]
+
+[dependencies]
+getopts = "0.2.14"
+
+[profile.release]
+lto = true
