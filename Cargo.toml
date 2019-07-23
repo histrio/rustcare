@@ -5,6 +5,7 @@ authors = ["Rinat Sabitov <rinat.sabitov@gmail.com>"]
 
 [dependencies]
 getopts = "0.2.14"
+libc = "0.2.60"
 
 [profile.release]
 lto = true
